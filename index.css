@@ -154,6 +154,8 @@ nav .visit {
   position: relative;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
+  margin-top: 0;
+  height: 490px;
 }
 
 .list-items ul {
@@ -192,7 +194,7 @@ nav .visit {
 .list-items .img-4 {
   position: absolute;
   right: 70%;
-  top: 79%;
+  top: 78%;
 }
 
 /* video section */
