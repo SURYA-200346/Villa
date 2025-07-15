@@ -437,7 +437,7 @@ nav .visit {
 .container-01 {
   display: grid;
   grid-template-columns: repeat(3, 35%);
-  grid-template-rows: 5% 100px repeat(3, 40%);
+  grid-template-rows: 5% 100px auto;
   column-gap: 25px;
   row-gap: 30px;
   width: 80%;
@@ -558,4 +558,10 @@ nav .visit {
   width: 380px;
   height: 600px;
   border-radius: 10px;
+}
+/* Section-2 */
+.section-2{
+  width: 100%;
+  height: 500px;
+  background-color: #7a7a7a;
 }
