@@ -1,18 +1,18 @@
 header {
   width: 100%;
   display: flex;
-  color: #7a7a7a;
-  font-size: 16px;
   border-bottom: 1px solid #eee;
 }
 
 header h3 {
   margin-left: 10%;
+  color: #7a7a7a;
+  font-size: 16px;
 }
 
-svg {
+/* svg {
   margin-top: 0px;
-}
+} */
 
 nav {
   display: flex;
@@ -71,7 +71,6 @@ nav .visit {
 }
 
 .section-1 {
-  background-color: #eee;
   display: flex;
   position: relative;
   margin-top: 30px;
@@ -88,8 +87,8 @@ nav .visit {
 }
 
 .section-1 .content {
-  background-color: #070707;
-  width: 27%;
+  background-color: #b91818;
+  width: 35%;
   position: absolute;
   top: 25%;
   right: 75%;

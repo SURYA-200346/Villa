@@ -1,0 +1,35 @@
+/* ...existing code... */
+
+@media screen and (max-width: 768px) {
+   .head {
+  margin-left: 10%;
+  color: #7a7a7a;
+  font-size: 10px;
+}
+  nav ul {
+  display: none;
+  }
+  .section-1{
+    max-width: 100%;
+   
+  }
+  .section-1 img {
+  background-size: cover;
+  max-width: 100%;
+  margin: 0;
+}
+
+.content span {
+  background-color: white;
+  font-size: 14px;
+  padding: 2px;
+  font-family: sans-serif;
+  color: rgb(13, 13, 13);
+}
+.content h2 {
+ margin-top: 20%;
+  font-size: 1.2em;
+  color: white;
+}
+}
+/* ...existing code... */
