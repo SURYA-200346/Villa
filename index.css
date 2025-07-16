@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 header {
   width: 100%;
   display: flex;
@@ -159,7 +162,7 @@ nav .visit {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   height: 510px;
-  width: 320px;
+  width: 350px;
 }
 
 .list-items ul {
@@ -203,8 +206,11 @@ nav .visit {
 
 /* video section */
 .video-view {
+  display: flex;
+  flex-direction: column;
   margin-top: 100px;
   position: relative;
+  /* background-color: #760fe4; */
 }
 
 .image h3 {
