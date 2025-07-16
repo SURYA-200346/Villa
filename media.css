@@ -1,35 +1,116 @@
 /* ...existing code... */
 
 @media screen and (max-width: 768px) {
-   .head {
-  margin-left: 10%;
-  color: #7a7a7a;
-  font-size: 10px;
-}
-  nav ul {
-  display: none;
-  }
-  .section-1{
-    max-width: 100%;
-   
-  }
-  .section-1 img {
-  background-size: cover;
-  max-width: 100%;
-  margin: 0;
+
+    .head {
+        margin-left: 10%;
+        color: #7a7a7a;
+        font-size: 10px;
+    }
+
+    nav h2 {
+        font-size: 25px;
+
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .section-1 {
+        max-width: 100%;
+        margin: 0;
+
+    }
+
+    .section-1 img {
+        background-size: cover;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .content span {
+        background-color: white;
+        font-size: 14px;
+        padding: 2px;
+        font-family: sans-serif;
+        color: rgb(13, 13, 13);
+    }
+
+    .content h2 {
+        margin-top: 20%;
+        font-size: 1em;
+        color: white;
+    }
+
+    /*  */
+    .feature-section {
+        max-width: 100%;
+        margin-top: 5%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+        height: 600px;
+        margin-top: 20px;
+    }
+
+    .img-container {
+        display: flex;
+        justify-content: flex-start;
+        /* background-color: blue; */
+        width: 30%;
+        margin-top: 0%;
+    }
+
+    .img-container img {
+        height: 220px;
+    }
+
+    .content-box {
+        /* background-color: aquamarine; */
+        max-width: 55%;
+        height: 220px;
+        margin-left: 15%;
+    }
+
+    .content-box h4 {
+        margin-left: 10%;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #ee626b;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .content-box h2 {
+        text-align: left;
+        font-size: 14px;
+        width: 400px;
+        margin-left: 7%;
+    }
+
+    .content-box h3 {
+        font-size: 13px;
+        margin-left: 7%;
+    }
+
+    .list-items {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        height: 450px;
+        width: 400px;
+        margin-top: 10%;
+        /* background-color: blue; */
+    }
 }
 
-.content span {
-  background-color: white;
-  font-size: 14px;
-  padding: 2px;
-  font-family: sans-serif;
-  color: rgb(13, 13, 13);
-}
-.content h2 {
- margin-top: 20%;
-  font-size: 1.2em;
-  color: white;
-}
-}
 /* ...existing code... */
