@@ -333,15 +333,15 @@
     }
 
     .row-4 img {
-        margin-bottom: 0;
-        margin: 25px;
-        max-width: 380px;
+       margin-top: 20px;
+        max-width: 350px;
         /* margin-left: 10px; */
     }
 
     .row-5 {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: column;
         margin-left: 1%;
         width: 380px;
@@ -355,18 +355,19 @@
     }
 
     .row-5 p {
-        padding: 10px;
+        padding: 5px;
         line-height: 25px;
-        width: 350px;
+        width: 300px;
         text-align: justify;
-       
-        margin-left: 20px;
+
+        /* margin-left: 20px; */
     }
 
     .properties {
-        width: 400px;
+        width: 380px;
         height: auto;
         display: flex;
+        margin:3%;
         /* background-color: #ee626b; */
         flex-direction: column;
         justify-content: center;
@@ -397,14 +398,21 @@
 
     .propertie-img {
         border-radius: 10px;
-        min-width: 355px;
+        width: 200px;
         height: 250px;
-        margin: 20px 10px;
+        /* margin: 20px 10px; */
     }
+.properties-row-3 {
 
+  position: relative;
+  background-color: #fff4f4;
+  border-radius: 10px;
+  width: 380px;
+  height: 550px;
+}
     .Schedule-btn {
-position: absolute;
-top:86%;
+        position: absolute;
+        top: 89%;
         color: white;
         background-color: #070707;
         padding: 10px 20px;
@@ -417,8 +425,9 @@ top:86%;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        width: 350px;
+        /* align-items: center; */
+        margin:2%;
+        width: 380px;
         height: auto;
         margin-top: 50px;
         /* margin-left: 20px; */
@@ -431,6 +440,7 @@ top:86%;
         flex-direction: column;
         justify-content: center;
         gap: 15px;
+         margin:3%;
         /* width: 350px; */
     }
 }
