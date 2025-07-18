@@ -293,7 +293,7 @@
     }
 
     .row-1 h2 {
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -337,7 +337,7 @@
         align-items: center;
         flex-direction: column;
         margin: 5%;
-        width: 380px;
+        width: 350px;
     }
 
     .row-5 h4 {
@@ -388,7 +388,7 @@
     .properties-row-2 h2 {
         margin-top: 0;
         text-align: center;
-        font-size: 1em;
+        font-size: 20px;
         /* width: 80%; */
     }
 
