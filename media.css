@@ -76,13 +76,13 @@
         /* background-color: aquamarine; */
         max-width: 60%;
         height: 220px;
-        margin-left: 20%;
+        margin-left: 15%;
     }
 
     .content-box h4 {
         margin-left: 10%;
         margin-top: 10px;
-        font-size: 14px;
+        font-size: 16px;
         color: #ee626b;
         font-weight: bold;
         text-transform: uppercase;
@@ -104,11 +104,12 @@
     .list-items {
         display: flex;
         justify-content: center;
+        align-items: center;
         box-shadow: 0 0 15px rgba(116, 115, 115, 0.819);
         border-radius: 10px;
         height: 400px;
-        max-width: 330px;
-        margin-top: 8%;
+        max-width: 300px;
+        margin: 8%;
         /* background-color: blue; */
     }
 
@@ -161,14 +162,15 @@
         align-items: center;
     }
 
-   .video-view .image h2{
-       font-size: 13px;
+    .video-view .image h2 {
+        font-size: 13px;
     }
+
     .image-2 {
         height: 150px;
         width: 250px;
         position: absolute;
-        left: 18%;
+        left: 22%;
         top: 53%;
     }
 
@@ -334,7 +336,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 1%;
+        margin: 5%;
         width: 380px;
     }
 
@@ -348,17 +350,17 @@
     .row-5 p {
         padding: 5px;
         line-height: 25px;
-        width: 300px;
+        width: 350px;
         text-align: justify;
-
+        font-size: 16px;
         /* margin-left: 20px; */
     }
 
     .properties {
-        width: 80vw;
+        width: 100%;
         height: auto;
         display: flex;
-       margin: 3%;
+        margin: 3%;
         /* background-color: #ee626b; */
         flex-direction: column;
         justify-content: center;
@@ -367,11 +369,13 @@
 
     .container-01 {
         display: flex;
+        position: relative;
         flex-direction: column;
-        width: 300px;
-         margin: 2%;
+        width: 100%;
+        /* margin: 2%; */
         justify-content: center;
         align-items: center;
+        /* background-color: #070707; */
     }
 
     .properties-row-1 {
@@ -388,57 +392,69 @@
         /* width: 80%; */
     }
 
-    .propertie-img {
-        border-radius: 10px;
-        width: 200px;
-        height: 250px;
-        /* margin: 20px 10px; */
-    }
-
     .properties-row-3 {
-
-        position: relative;
-        background-color: #fff4f4;
-        border-radius: 10px;
+        /* background-color: #ae4444; */
+        border-radius: 20px;
         width: 380px;
         height: 550px;
+    }
+
+    .properties-row-4 {
+        /* background-color: #ae4444; */
+        border-radius: 20px;
+        width: 380px;
+        height: 550px;
+    }
+
+    .properties-row-5 {
+        /* background-color: #ae4444; */
+        border-radius: 20px;
+        width: 380px;
+        height: 550px;
+    }
+
+    .propertie-img {
+        border-radius: 10px;
+        width: 350px;
+        height: 250px;
+        /* margin: 20px 10px; */
     }
 
     .Schedule-btn {
         position: absolute;
         top: 90%;
+        left: 30%;
         color: white;
         background-color: #070707;
         padding: 10px 20px;
         font-size: 12px;
     }
-.contact {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  margin-top: 60px;
-  /* background-color: aqua; */
-}
-.contact-info {
-  /* background-color: #7a7a7a; */
-  width:250px;
-  height: 150px;
-  margin-top: 50px;
-}
-   .contact-info h4 {
-  color: #ee626b;
-  /* display: block; */
-}
 
-.contact-info h1 {
-  color: white;
-  font-size: 2em;
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        margin-top: 60px;
+        /* background-color: aqua; */
+    }
+
+    .contact-info {
+        /* background-color: #7a7a7a; */
+        width: 250px;
+        height: 150px;
+        margin-top: 50px;
+    }
+
+    .contact-info h4 {
+        color: #ee626b;
+        /* display: block; */
+    }
+
+    .contact-info h1 {
+        color: white;
+        font-size: 2em;
+    }
 }
-}
-
-
-
-/*  */

@@ -479,7 +479,7 @@ nav .visit {
 
 .propertie-img {
   border-radius: 10px;
-  min-width: 355px;
+  width: 355px;
   height: 250px;
   margin: 20px 10px;
 }
