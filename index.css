@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  box-sizing: border-box;
 }
 header {
   width: 100%;
@@ -173,6 +174,7 @@ nav .visit {
 
 .list-items li {
   padding: 10px;
+  
 }
 
 .list-items span {
@@ -239,9 +241,8 @@ nav .visit {
   position: absolute;
   right: 48%;
   top: 85%;
-  font-size: 1em;
   text-decoration: none;
-  outline: rgba(254, 85, 37, 0.5) solid 20px;
+  outline: rgba(254, 85, 37, 0.5) solid 15px;
   padding: 20px;
   border-radius: 50%;
 }
