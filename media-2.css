@@ -265,14 +265,23 @@
   }
 
   .row-3 {
+    width: 380px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+.row-3 .info{
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info span{
+    font-size: 19px;
+   padding: 40px;
+  }
   .row-4 {
     height: 300px;
-
   }
 
   .row-4 img {
@@ -297,7 +306,7 @@
     height: fit-content;
     margin: 0;
     right: 0;
-    left: 48%;
+    left: 52%;
     top: 60%;
   }
 
