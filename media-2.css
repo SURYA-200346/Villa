@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   nav h2 {
     font-size: 30px;
   }
@@ -23,12 +23,11 @@
   }
 
   .feature-section {
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
+    width: 90%;
+    height: fit-content;
+    margin: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .container {
@@ -47,45 +46,59 @@
   }
 
   .content-box {
-    margin: 10px;
+    margin: 5px;
+    width: 280px;
+    height: fit-content;
 
   }
 
   .content-box h2 {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .content-box h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
   }
 
   .list-items {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    height: 300px;
-    width: 250px;
+    height: fit-content;
+    width: 270px;
     margin-top: 0;
   }
 
   .list-items ul {
-    /* padding: 20px; */
+    padding: 15px;
     list-style: none;
     margin-left: 100px;
+    margin-top: 0;
   }
 
   .list-items li {
-    padding: 5px;
+    padding: 10px;
   }
 
   .list-items h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .list-items span {
-    font-size: 15px;
+    font-size: 17px;
     color: rgb(170, 170, 170);
   }
 
   .list-items img {
     position: absolute;
-    right: 60%;
+    /* right: 60%; */
     top: 12%;
+    left: 30px;
+    width: 45px;
+    height: 40px;
   }
 
   .list-items .img-2 {
@@ -123,18 +136,18 @@
 
   .image h2 {
     position: absolute;
-    width: 350px;
-    font-size: 2em;
-    top: 17%;
+    /* width: 350px; */
+    font-size: 2.2em;
+    top: 16%;
     left: 35%;
     color: #fbfafa;
   }
 
   .image-2 {
     position: absolute;
-    width: 400px;
-    height: 200px;
-    left: 25%;
+    width: 550px;
+    height: 300px;
+    left: 20%;
     top: 58%;
   }
 
@@ -163,43 +176,47 @@
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 70px;
+    margin-top: 250px;
     /* background-color: #7a7a7a; */
   }
 
   .fun-factor {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
   }
 
   .card-1 {
-    /* display: flex;
-  position: relative;
-  justify-content: center; */
+    display: flex;
+    position: relative;
+
+    margin: 0;
+    width: 250px;
+    height: 100px;
     background-color: #ffeee9;
     padding-left: 0px;
-    height: 80px;
+    height: 100px;
     border-radius: 10px;
   }
 
   .card-1 h4 {
     position: absolute;
     left: 6%;
-    top: -40%;
-    font-size: 35px;
+    top: -30%;
+    font-size: 40px;
     color: #f35525;
   }
 
   .card-1 p {
     position: absolute;
-    right: 2%;
-    top: 35%;
+    right: 10%;
+    top: 20%;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     width: 150px;
     margin: 0;
+    padding: 0;
   }
 
   .round-icon {
@@ -217,7 +234,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* background-color: #8b888885; */
     width: 100%;
     height: 600px;
@@ -230,10 +247,11 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    /* align-content: center; */
+    align-content: center;
   }
 
   .row-1 {
+    position: absolute;
     width: 90%;
     font-size: 18px;
     text-align: center;
@@ -241,34 +259,52 @@
     /* color: #f35525; */
     height: 100px;
   }
- .row-3 {
-        display: flex;
-        justify-content: center;
-       align-items: center;
-    }
+
+  .row-1 h2 {
+    margin: 5px 0 0 0;
+  }
+
+  .row-2 {
+    display: none;
+  }
+
+  .row-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .row-4 {
     height: 300px;
 
   }
 
   .row-4 img {
+    height: 300px;
     margin: 0;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(70, 69, 69, 0.527);
   }
-
+.row-5 h4{
+  display: inline;
+  text-align: center;
+  margin: 0 0 10px 10px;
+}
   .row-5 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     position: absolute;
-    width: 350px;
+    width: 400px;
     height: fit-content;
     margin: 0;
     right: 0;
     left: 48%;
-    top: 80%;
+    top: 70%;
   }
 
   .row-5 p {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     margin: 0;
     line-height: 25px;
     width: 350px;
