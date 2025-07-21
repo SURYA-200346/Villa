@@ -7,7 +7,9 @@
         color: #7a7a7a;
         font-size: 10px;
     }
-
+.icon{
+    display: none;
+}
     nav h2 {
         font-size: 25px;
 
@@ -174,9 +176,9 @@
         top: 53%;
     }
 
-    /* .image-2 a {
+    .image-2 a {
         position: absolute;
-        right: 50%;
+        right: 20%;
         top: 100%;
         text-decoration: none;
         outline: rgba(254, 85, 37, 0.5) solid 20px;
@@ -190,7 +192,7 @@
         right: 30%;
         background-color: #eee;
         border-radius: 50%;
-    } */
+    }
 
     .image h3 {
         position: absolute;
